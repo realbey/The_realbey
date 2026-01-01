@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The_realbey | eFootball Portfolio</title>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #020617, #0f172a); color: #e5e7eb; }
+/* HERO */
+.hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; animation: fadeIn 2s ease; }
+.hero h1 { font-size: 4rem; color: #22c55e; text-shadow: 0 0 10px #22c55e, 0 0 20px #22c55e; }
+.hero .tagline { margin: 15px 0; font-size: 1.3rem; opacity: 0.9; }
+.btn { margin-top: 20px; padding: 14px 35px; background: #22c55e; color: #020617; text-decoration: none; border-radius: 40px; font-weight: bold; transition: 0.4s; cursor:pointer; }
+.btn:hover { background: #16a34a; transform: scale(1.1); box-shadow: 0 0 20px #22c55e; }
+/* SECTIONS */
+section { padding: 80px 10%; }
+section h2 { font-size: 2.5rem; margin-bottom: 30px; color: #22c55e; text-shadow: 0 0 5px #22c55e; }
+/* CARDS */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; }
+.card { background: #020617; padding: 30px; border-radius: 20px; text-align: center; transition: 0.4s; box-shadow: 0 0 0 rgba(34,197,94,0.0); }
+.card:hover { transform: translateY(-15px); box-shadow: 0 20px 40px rgba(34,197,94,0.4); }
+/* TESTIMONIALS */
+blockquote { background: #020617; padding: 25px; border-left: 5px solid #22c55e; border-radius: 15px; margin-bottom: 20px; opacity: 0; transform: translateY(40px); transition: 0.8s; font-style: italic; font-size: 1.1rem; }
+blockquote.show { opacity: 1; transform: translateY(0); }
+/* HIGHLIGHTS */
+.highlight-card { background: linear-gradient(145deg, #08111f, #0f172a); border: 2px solid #22c55e; transition: 0.5s; }
+.highlight-card:hover { transform: translateY(-10px) scale(1.05); box-shadow: 0 15px 40px rgba(34,197,94,0.5); }
+.play-btn { margin-top: 15px; display: inline-block; padding: 10px 25px; background: #16a34a; color: #fff; border-radius: 30px; text-decoration: none; font-weight: bold; transition: 0.3s; cursor:pointer; }
+.play-btn:hover { background: #22c55e; transform: scale(1.1); box-shadow: 0 0 15px #22c55e; }
+/* TEAM & COACH IMAGES */
+#team-coach img { display: block; margin: 0 auto; transition: 0.3s; }
+#team-coach img:hover { transform: scale(1.05); box-shadow: 0 0 20px #22c55e; }
+/* SOCIAL MEDIA */
+.socials { display: flex; justify-content: center; gap: 25px; margin-top: 20px; flex-wrap: wrap; }
+.socials a { background: #22c55e; padding: 12px 18px; border-radius: 15px; color: #020617; font-weight: bold; text-decoration: none; transition: 0.3s; }
+.socials a:hover { transform: scale(1.1); box-shadow: 0 0 15px #22c55e; }
+/* FOOTER */
+footer { text-align: center; padding: 30px; background: #020617; opacity: 0.8; }
+/* ANIMATIONS */
+@keyframes fadeIn { from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>The_realbey 😎🔥</h1>
+  <p class="tagline">eFootball Mobile • Quick Counter King ⚡💥</p>
+  <p>Speed ⚡ Precision 🎯 Laughs 😆 Tactical Genius 🧠💚</p>
+  <p>Ready to have fun, score insane goals, and crush opponents 😂🥅</p>
+  <a href="#about" class="btn">Jump In! 🚀</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me 😎💚</h2>
+  <p>
+    Yo! I’m <strong>The_realbey</strong> — the guy who turns defense into hilarious chaos and deadly goals ⚡🥅😂. 
+    Quick counter specialist, laughter dealer, and your future favorite opponent 😏🔥. 
+    Fun, cheeky, and always ready to shine 💥🌟
+  </p>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <h2>Player Stats 💪🔥</h2>
+  <div class="cards">
+    <div class="card">🏆 Division 1 Champion — I dominate! 😎</div>
+    <div class="card">⚽ 1000+ Matches Played — endless fun 😂</div>
+    <div class="card">🔥 High Win Rate 💯% — unstoppable ⚡</div>
+    <div class="card">⚡ Quick Counter Master — blink & it’s gone 🥷</div>
+  </div>
+</section>
+
+<!-- FORMATION -->
+<section id="formation">
+  <h2>Formation & Tactics 🧠⚡</h2>
+  <div class="cards">
+    <div class="card"><h3>Main Formation 🥅</h3><p>4-1-2-3 — perfect for chaos & laughs 😏</p></div>
+    <div class="card"><h3>Philosophy 🧩</h3><p>Fast transitions, hilarious plays & lethal finishing 💥😂</p></div>
+    <div class="card"><h3>Flexibility 🤹</h3><p>4-3-3 • 5-2-1-2 — adapt & conquer 😎</p></div>
+  </div>
+</section>
+
+<!-- COACH DREAM TEAM -->
+<section id="coaches">
+  <h2>Coach Dream Team 🧑‍🏫💚</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Frank Rijkaard 😎⚡</h3>
+      <img src="Screenshot_20260101_113237_Google.jpg" alt="Frank Rijkaard" style="width:100px; border-radius:50%; margin-bottom:10px;">
+      <p>Tactical Genius 🧠💥 Quick Counter Expert ⚡</p>
+    </div>
+    <div class="card">
+      <h3>Frank Lampard 🔥💚</h3>
+      <img src="Screenshot_20260101_113254_Google.jpg" alt="Frank Lampard" style="width:100px; border-radius:50%; margin-bottom:10px;">
+      <p>Midfield Master 🎯⚡ Creative Playmaker & energy booster 😂</p>
+    </div>
+    <div class="card">
+      <h3>Ruben Amorim 💪⚡</h3>
+      <img src="Screenshot_20260101_113139_Google.jpg" alt="Ruben Amorim" style="width:100px; border-radius:50%; margin-bottom:10px;">
+      <p>Defensive Strategist 🛡️⚡ Team Discipline & Power 💥 Fun drills 😎</p>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM & COACH IMAGES -->
+<section id="team-coach">
+  <h2>Team & Squad 📸🔥</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>My Squad 💚</h3>
+      <img src="Screenshot_20260101_115525_eFootball.jpg" alt="My Team" style="width:100%; border-radius:15px;">
+      <p>Ready for epic Quick Counter chaos ⚡😎</p>
+      <p>💪 Collective Strength: 95% 💥 Speed ⚡ Coordination 🤝 Teamwork 🧠 — pure fun!</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <h2>What People Say 😂💚</h2>
+  <blockquote>“One blink and The_realbey steals the ball like a ninja 🥷⚡… and laughs 😆”</blockquote>
+  <blockquote>“Playing against him is pure chaos & fun 🌩️😂 — you’ll love it!”</blockquote>
+  <blockquote>“He smiles 😏, tricks you 😜, then scores 😱🥅 — legend 💚🔥”</blockquote>
+  <blockquote>“Squad vibes = insane 💥💚 Collective power unmatched ⚡🤣”</blockquote>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section id="highlights">
+  <h2>Highlights & Fun Moments 😆🔥</h2>
+  <div class="cards">
+    <div class="card highlight-card">
+      <h3>Highlight 1 ⚡</h3>
+      <p>Quick Counter Goal 🥅 — Opponent crying & laughing 😂😭</p>
+      <a href="#" class="btn play-btn" onclick="showUsername()">Play with Me 😎</a>
+    </div>
+    <div class="card highlight-card">
+      <h3>Highlight 2 🏆</h3>
+      <p>Winning Goal 🥅 — Crowd goes wild 🎉🥳 Fun vibes everywhere 😏</p>
+      <a href="#" class="btn play-btn" onclick="showUsername()">Challenge Me 😏</a>
+    </div>
+    <div class="card highlight-card">
+      <h3>Highlight 3 🎯</h3>
+      <p>Tactical Masterclass 🧠💥 — They didn’t even see it coming 😜😂</p>
+      <a href="#" class="btn play-btn" onclick="showUsername()">Join Fun 😎</a>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL MEDIA -->
+<section id="socials">
+  <h2>Follow Me 🌐💚</h2>
+  <div class="socials">
+    <a href="https://instagram.com/The_realbey" target="_blank">Instagram 📸 @The_realbey</a>
+    <a href="https://twitter.com/The_realbey" target="_blank">Twitter 🐦 @The_realbey</a>
+    <a href="https://tiktok.com/@The_realbey" target="_blank">TikTok 🎵 @The_realbey</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Let’s Connect 🤝💚</h2>
+  <p>Ready to laugh, play, and crush opponents? Find me in eFootball Mobile! ⚡😎😂</p>
+  <a href="#" class="btn play-btn" onclick="showUsername()">Search Username 😏</a>
+</section>
+
+<footer>
+  ©  The_realbey • All rights reserved
+</footer>
+
+<script>
+const quotes = document.querySelectorAll("blockquote");
+window.addEventListener("scroll", () => {
+  const trigger = window.innerHeight * 0.85;
+  quotes.forEach(q => { if (q.getBoundingClientRect().top < trigger) q.classList.add("show"); });
+});
+
+function showUsername() { alert("Search for me in eFootball Mobile with username: The_realbey 😎🔥😂"); }
+</script>
+
+</body>
+</html>
